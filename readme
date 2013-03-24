@@ -8,7 +8,7 @@ int main(int argc, char const *argv[])
 	int count;
 	cin>>count;
 
-	if (count > num)
+	if (count >= num)
 	{ 
 		cout<< count <<endl;
 		/* code */
