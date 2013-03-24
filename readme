@@ -1,0 +1,23 @@
+#include <iostream>
+#include <cstdlib>
+#define num 10
+using namespace std;
+
+int main(int argc, char const *argv[])
+{
+	int count;
+	cin>>count;
+
+	if (count > num)
+	{ 
+		cout<< count <<endl;
+		/* code */
+	}
+	
+	else
+	{
+		cout<<num;
+	}
+	system("pause");
+	return 0;
+}
